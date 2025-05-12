@@ -1,0 +1,21 @@
+main {
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  height: 800px;
+  border: 1px solid red;
+}
+
+.left {
+  display: grid;
+  place-items: center;
+  background-color: gray;
+  height: 100%;
+}
+
+.c1 {
+  height: 400px;
+}
+
+.c2 {
+  height: 300px;
+}

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 1000px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  place-items: center;
+  height: 1000px;
+  margin: 10px 10px;
+  border: 1px solid red;
+}
+
+.left-side {
+  display: grid;
+  place-items: center;
+  gap: 5px;
+  border: 1px solid red;
+}
+
+.tshirt-view {
+  background-color: rgb(197, 197, 197);
+}
+
+.tshirt-main {
+  width: 500px;
+}
+
+.select-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 200px;
+  background-color: gray;
+}
+
+.tshirt-other-view {
+  width: 150px;
+}
